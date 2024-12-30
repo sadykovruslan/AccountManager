@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-//@Repository
+@Repository
 public class InMemoryAccountDao implements AccountDao {
     private final Map <Long, Account> accountIdMap;
 

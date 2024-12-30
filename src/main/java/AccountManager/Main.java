@@ -9,8 +9,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-//       var applicationContext = new AnnotationConfigApplicationContext(AccountManagerConfig.class);
-       var applicationContext = new ClassPathXmlApplicationContext("account-manager.xml");
+       var applicationContext = new AnnotationConfigApplicationContext(AccountManagerConfig.class);
+//       var applicationContext = new ClassPathXmlApplicationContext("account-manager.xml");
 //       var applicationContext = new AnnotationConfigApplicationContext(AccountManagerConfigV2.class);
 
 

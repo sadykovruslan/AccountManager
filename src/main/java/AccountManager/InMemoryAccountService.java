@@ -1,7 +1,9 @@
 package AccountManager;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+//@Service
 @Service
 public class InMemoryAccountService implements AccountService{
 
